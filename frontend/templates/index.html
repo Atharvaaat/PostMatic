@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Post Creator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/frontend/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">LinkedIn Post Creator</a>
+            <div class="d-flex">
+                <a href="new_event.html" class="btn btn-light">
+                    <i class="fas fa-plus"></i> Add Event
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>My Events</h2>
+        <div class="row" id="events-container">
+            <!-- Events will be loaded here dynamically -->
+            <div class="col-12 text-center py-5" id="loading">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <div class="col-12 text-center py-5 d-none" id="no-events">
+                <p class="text-muted">No events found. Click "Add Event" to create your first event.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/frontend/js/config.js"></script>
+    <script src="/frontend/js/index.js"></script>
+</body>
+</html>                                                     
