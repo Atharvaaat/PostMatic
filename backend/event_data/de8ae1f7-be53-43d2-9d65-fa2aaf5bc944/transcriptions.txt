@@ -1,8 +1,0 @@
-Recording 1:
-This is a test event world
-
-Recording 2:
-This is a test event to
-
-Recording 3:
-This is the test event 3

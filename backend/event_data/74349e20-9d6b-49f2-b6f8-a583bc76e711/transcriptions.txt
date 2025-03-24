@@ -1,5 +1,0 @@
-Recording 1:
-This is an test demo for olama one
-
-Recording 2:
-This is the test demo for Ollama 2.
